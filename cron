@@ -1,0 +1,3 @@
+crontab -e
+0 9 * * * /usr/bin/python3 /home/azureuser/scripts/daily_quote_email.py >> /home/azureuser/scripts/daily_quote_email.log 2>&1
+#schedule the script on cron
